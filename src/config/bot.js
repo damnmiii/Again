@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Newly made • /help",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -91,8 +91,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "##ffffff",
+      secondary: "#ffffff",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -159,15 +159,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "pesos",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "pesos",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "₱",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 500,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
@@ -184,7 +184,7 @@ export const botConfig = {
     begMax: 50,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.7,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
